@@ -1,6 +1,9 @@
 # AITeam
 Monorepo for the Baltimore Code and Coffee AI Team
 
+## Rules
+If any project makes money, you will be compensated according to your contributions
+Any person not contributing for 3 months will be declared inactive
 
 ## Contributing to the Project
 
