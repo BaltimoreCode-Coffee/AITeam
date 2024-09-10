@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TensorFlow.js MNIST Model</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/1.0.11/pako.min.js"></script>
+</head>
+<body>
+    <h1>TensorFlow.js MNIST Model</h1>
+    <div id="Train">
+    <button id="trainBtn">Train Model</button>
+</div>
+    <div id="output"></div>
+    <div id="inference">
+    <button id="randomBtn" style="display:none;">Random Image</button>
+    <button id="predictBtn" style="display:none;">Predict Digit</button>
+    <canvas id="mnistImage" width="28" height="28"></canvas>
+    <div id="predictoutput"></div>
+</div>
+    <script src="./mnistWeb.js"></script>
+</body>
+</html>
