@@ -12,7 +12,7 @@ Thank you for your interest in contributing to the Baltimore Code and Coffee web
 
 ### How To Get the files, Test Locally, and create a Pull Request (Contribute!)
 
-1. **Download Github Desktop**: This tool makes using Git easy and fun! Command line instructions are also included in this guide    
+1. **Download Github Desktop (optional)**: This tool makes using Git easy and fun! Command line instructions are also included in this guide    
    **Windows:**  
 https://desktop.github.com/download/  
    **Ubuntu**  
@@ -25,7 +25,7 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
 
 2. **Fork the repository**:
   At the top of this page, click "Fork", and make your own copy of this repository
-2. **Clone the repository**:  
+3. **Clone the repository**:  
    **GitHub Desktop:** 
    - Open GitHub Desktop and go to `File` -> `Clone Repository`.
    - Select the URL tab and paste the repository link: `https://github.com/YOUR_ACCOUNT/BaltimoreCode-Coffee.github.io.git`
@@ -38,25 +38,25 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
    git clone https://github.com/YOUR_ACCOUNT/BaltimoreCode-Coffee.github.io.git
    ```
 
-3. **Open VSCode** to the BaltimoreCode-Coffee.github.io folder
-4. **Open a Terminal in VSCode**
-5. **Install http-server**:
+4. **Open VSCode** to the BaltimoreCode-Coffee.github.io folder
+5. **Open a Terminal in VSCode**
+6. **Install http-server**:
    ```bash
    npm install -g http-server
    ```
    
-6. **Serve the project** without caching:
+7. **Serve the project** without caching:
      ```bash
      http-server -c-1
      ```
    
-7. **Access the site** in your browser:
+8. **Access the site** in your browser:
    - Open your browser and navigate to `http://localhost:8080`. You should see the website as it would appear with your changes applied.
 
-8. **Make Changes** then refresh your browser page
+9. **Make Changes** then refresh your browser page
     Once you've made and tested your changes, you can submit them for review by creating a pull request:
 
-9. **Commit your changes**:
+10. **Commit your changes**:
    - In GitHub Desktop:
      - Write a summary of your changes in the `Summary` field.
      - Optionally, add a description.
@@ -68,7 +68,7 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
    git commit -m "Description of your changes"
    ```
    
-8. **Push your branch** to the remote repository:
+11. **Push your branch** to the remote repository:
    - In GitHub Desktop:
      - Click `Push origin` in the toolbar.
    
@@ -77,7 +77,7 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
    git push origin <branch-name>
    ```
    
-9. **Create a pull request**:
+12 . **Create a pull request**:
    - In GitHub Desktop:
      - Click `Branch` -> `Create Pull Request` to open the GitHub page.
    

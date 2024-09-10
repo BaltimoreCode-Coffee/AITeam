@@ -1,0 +1,23 @@
+{
+  "name": "aiteam",
+  "version": "1.0.0",
+  "description": "Monorepo for the Baltimore Code and Coffee AI Team",
+  "main": "mnistTF.js",
+  "type": "module",
+  "scripts": {
+    "test": "node mnistTF.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaltimoreCode-Coffee/AITeam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaltimoreCode-Coffee/AITeam/issues"
+  },
+  "homepage": "https://github.com/BaltimoreCode-Coffee/AITeam#readme",
+  "dependencies": {
+    "@tensorflow/tfjs-node-gpu": "^4.21.0"
+  }
+}
